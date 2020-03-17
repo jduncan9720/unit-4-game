@@ -1,0 +1,19 @@
+body{
+    background-image: url("../images/witchback.jpg");
+}
+h1{
+    color: lightgrey;
+}
+.gameTitle{
+    text-align: center;
+}
+.charBox {
+    margin: 5px;
+    padding: 5px;
+    width: 180px;
+    border: solid 2px white;
+    background-color: rgb(255, 255, 255);
+}
+p {
+    margin-bottom: 0px;
+}
