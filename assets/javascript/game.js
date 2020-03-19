@@ -43,4 +43,23 @@
                 // Show "Restart Battle" button
                     // On click, restart game
 
-    
+var geralt={
+    name: "geralt",
+    hp: $("#geraltHp").value(), //could be .val
+    dp: 20,
+}
+var cirilla={
+    name: "cirilla",
+    hp: $("#cirillaHp").value(), //could be .val
+    dp: 25,
+}
+var wildHunt={
+    name: "wildHunt",
+    hp: $("#wildHuntHp").value(), //could be .val
+    dp: 40,
+}
+var noonWraith={
+    name: "noonWraith",
+    hp: $("#noonWraithHp").value(), //could be .val
+    dp: 30,
+}

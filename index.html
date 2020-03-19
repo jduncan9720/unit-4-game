@@ -19,153 +19,125 @@
             <div class="container-lg border text-center">
                 This container holds the game!
                 <div class="row border" id="characterSelection">
-            
-                      <div class="col-sm border">
                         <div class="charBox text-center">
                             <p>Geralt</p>
                             <img src="assets/images/geralt.jpg" alt="image">
                             <p>HP 180</p>
                         </div>
-                      </div>
-                      <div class="col-sm border">
                         <div class="charBox text-center">
                             <p>Cirilla</p>
                             <img src="assets/images/ciri.jpg" alt="image">
                             <p>HP 180</p>
                         </div>
-                      </div>
-                      <div class="col-sm border">
                         <div class="charBox text-center">
                             <p>The Wild Hunt</p>
                             <img src="assets/images/wildHunt.jpg" alt="image">
                             <p>HP 180</p>
                         </div>
-                       </div>
-                      <div class="col-sm border">
                         <div class="charBox text-center">
                             <p>Noonwraith</p>
                             <img src="assets/images/noonWraith.jpg" alt="image">
                             <p>HP 180</p>
                         </div>
-                      </div>
-
                 </div>
+
+               
                 <div class="row border" id="yourHero">
-                    
-                    <div class="col-sm border">
                         <div class="charBox2 text-center">
                             <p>Geralt</p>
                             <img src="assets/images/geralt.jpg" alt="image">
-                            <p id="heroHp1">HP 180</p>
+                            <p value=140 id="geraltHp">HP 140</p>
                         </div>
-                      </div>
-                      <div class="col-sm border">
                         <div class="charBox2 text-center">
                             <p>Cirilla</p>
                             <img src="assets/images/ciri.jpg" alt="image">
-                            <p id="heroHp2">HP 180</p>
+                            <p value=160 id="cirillaHp">HP 160</p>
                         </div>
-                      </div>
-                      <div class="col-sm border">
                         <div class="charBox2 text-center">
                             <p>The Wild Hunt</p>
                             <img src="assets/images/wildHunt.jpg" alt="image">
-                            <p id="heroHp3">HP 180</p>
+                            <p value=200 id="wildHuntHp">HP 200</p>
                         </div>
-                       </div>
-                      <div class="col-sm border">
                         <div class="charBox2 text-center">
                             <p>Noonwraith</p>
                             <img src="assets/images/noonWraith.jpg" alt="image">
-                            <p id="heroHp4">HP 180</p>
+                            <p value=180 id="noonWraithHp">HP 180</p>
                         </div>
-                      </div>
-
                 </div>
+
+    
                 <div class="row border" id="yourEnemies">
-                    
-                    <div class="col-sm border">
                         <div class="charBox3 text-center">
                             <p>Geralt</p>
                             <img src="assets/images/geralt.jpg" alt="image">
                             <p>HP 180</p>
                         </div>
-                      </div>
-                      <div class="col-sm border">
                         <div class="charBox3 text-center">
                             <p>Cirilla</p>
                             <img src="assets/images/ciri.jpg" alt="image">
                             <p>HP 180</p>
                         </div>
-                      </div>
-                      <div class="col-sm border">
                         <div class="charBox3 text-center">
                             <p>The Wild Hunt</p>
                             <img src="assets/images/wildHunt.jpg" alt="image">
                             <p>HP 180</p>
                         </div>
-                       </div>
-                      <div class="col-sm border">
                         <div class="charBox3 text-center">
                             <p>Noonwraith</p>
                             <img src="assets/images/noonWraith.jpg" alt="image">
                             <p>HP 180</p>
                         </div>
-                      </div>
-
                 </div>
+
                 <div class="row border">
                     <div id="attachButton">
                         <button type="button" onclick="alert('Attttaaaaccckk')">Attack</button>
                     </div>
                 </div>
+
                 <div class="row border" id="currentEnemy">
 
-                    <div class="col-sm border">
                         <div class="charBox4 text-center">
-                            <p>Geralt</p>
+                            <p>Geralt</p>fd
                             <img src="assets/images/geralt.jpg" alt="image">
-                            <p id="enemyHp1">HP 180</p>
+                            <p value=140 id="geraltHp">HP 140</p>
                         </div>
-                      </div>
-                      <div class="col-sm border">
                         <div class="charBox4 text-center">
                             <p>Cirilla</p>
                             <img src="assets/images/ciri.jpg" alt="image">
-                            <p id="enemyHp2">HP 180</p>
+                            <p value=160 id="cirillaHp">HP 160</p>
                         </div>
-                      </div>
-                      <div class="col-sm border">
                         <div class="charBox4 text-center">
                             <p>The Wild Hunt</p>
                             <img src="assets/images/wildHunt.jpg" alt="image">
-                            <p id="enemyHp3">HP 180</p>
+                            <p value=200 id="wildHuntHp">HP 200</p>
                         </div>
-                       </div>
-                      <div class="col-sm border">
                         <div class="charBox4 text-center">
                             <p>Noonwraith</p>
                             <img src="assets/images/noonWraith.jpg" alt="image">
-                            <p id="enemyHp4">HP 180</p>
+                            <p value=180 id="noonWraithHp">HP 180</p>
                         </div>
-                      </div>
-
                 </div>
-                <div class="row border">
-                    This is the information about attack box.
 
+                <div class="row border text-white">
+                    <p class="battleInfo" id="heroInfo">The Hero did this much damege to Enemy</p1>
                 </div>
+                <div class="row border text-white">
+                    <p class="battleInfo" id="enemyInfo">The Enemy did this much damage to Hero</p1>
+                </div>
+
                 <div class="row border">
-                    Restart button will load here after game.
+                    <button type="button" onclick="alert('Reset Game')">Reset Game</button>
 
                 </div>
             </div>
-
-     </div>
+        </div>
+        
             
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/javascript/game.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
